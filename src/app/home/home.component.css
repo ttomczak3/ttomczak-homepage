@@ -1,0 +1,31 @@
+div {
+  margin: auto;
+  max-width: 486px;
+  text-align: justify;
+}
+h1 {
+  color: #fdebf3;
+  font-family: 'Pacifico', cursive;
+}
+.badge {
+  color: #fdebf3;
+  background-color: #584966;
+}
+h4 {
+  color: #fdebf3;
+  text-decoration: underline;
+  text-decoration-color: #375a7f;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 6px;
+  font-family: 'Pacifico', cursive;
+}
+p {
+  color: #fdebf3;
+  font-family: 'Josefin Sans', sans-serif;
+  hyphens: auto;
+  text-indent: 1em;
+}
+.link-images img {
+  max-width: 46px;
+  padding-right: 10px;
+}

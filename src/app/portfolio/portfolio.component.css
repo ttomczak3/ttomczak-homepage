@@ -1,0 +1,45 @@
+.header {
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+}
+h4 {
+  color: #fdebf3;
+  text-decoration: underline;
+  text-decoration-color: #375a7f;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 6px;
+  font-family: 'Pacifico', cursive;
+}
+.row {
+  margin: auto;
+  max-width: 500px;
+}
+.col {
+  width: 250px;
+}
+.card {
+  color: #fdebf3;
+  font-family: 'Josefin Sans', sans-serif;
+  background: none;
+  border: none;
+}
+.card:hover {
+    box-shadow: 3px 3px 3px #eb9195;
+    transform:scale(1.05);
+}
+.card-title {
+  text-decoration: underline;
+  text-decoration-color: #375a7f;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.card-footer {
+  background: none;
+  border: none;
+}
+@media only screen and (max-width: 600px) {
+  .row {
+    max-width: 250px;
+  }
+}
