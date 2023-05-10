@@ -2,12 +2,12 @@
   max-width: 500px;
 }
 .navbar-brand {
-  color: #584966;
+  color: #fdebf3;
   font-family: 'Pacifico', cursive;
 }
 .navbar-brand:hover {
   text-decoration: underline;
-  text-decoration-color: #584966;
+  text-decoration-color: #fdebf3;
   text-decoration-thickness: 2px;
   text-underline-offset: 6px;
 }

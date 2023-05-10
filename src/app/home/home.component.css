@@ -3,6 +3,10 @@ div {
   max-width: 486px;
   text-align: justify;
 }
+.gif {
+  height: auto;
+  width: 300px;
+}
 h1 {
   color: #fdebf3;
   font-family: 'Pacifico', cursive;
@@ -11,7 +15,7 @@ h1 {
   color: #fdebf3;
   background-color: #584966;
 }
-h4 {
+h2 {
   color: #fdebf3;
   text-decoration: underline;
   text-decoration-color: #375a7f;
@@ -26,6 +30,15 @@ p {
   text-indent: 1em;
 }
 .link-images img {
-  max-width: 46px;
-  padding-right: 10px;
+  height: auto;
+  width: 46px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+@media only screen and (max-width: 600px) {
+  .link-images img {
+    width: 32px;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
 }

@@ -3,13 +3,20 @@
   max-width: 500px;
   text-align: center;
 }
-h4 {
+.gif {
+  height: auto;
+  width: 300px;
+}
+h2 {
   color: #fdebf3;
   text-decoration: underline;
   text-decoration-color: #375a7f;
   text-decoration-thickness: 4px;
   text-underline-offset: 6px;
   font-family: 'Pacifico', cursive;
+}
+h3 {
+  font-size: 20px;
 }
 .row {
   margin: auto;
