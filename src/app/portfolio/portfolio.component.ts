@@ -7,6 +7,7 @@ import { Meta } from '@angular/platform-browser';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent implements OnInit {
+  year: number = new Date().getFullYear();
 
   constructor(private meta: Meta) { }
 

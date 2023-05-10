@@ -35,6 +35,10 @@ p {
   margin-left: 4px;
   margin-right: 4px;
 }
+small {
+  color: #fdebf3;
+  font-family: 'Josefin Sans', sans-serif;
+}
 @media only screen and (max-width: 600px) {
   .link-images img {
     width: 32px;

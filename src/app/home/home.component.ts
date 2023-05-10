@@ -7,6 +7,7 @@ import { Meta } from '@angular/platform-browser';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  year: number = new Date().getFullYear();
 
   constructor(private meta: Meta) { }
 
