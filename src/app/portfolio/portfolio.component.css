@@ -3,10 +3,6 @@
   max-width: 500px;
   text-align: center;
 }
-.gif {
-  height: auto;
-  width: 300px;
-}
 h2 {
   color: #fdebf3;
   text-decoration: underline;
@@ -32,8 +28,8 @@ h3 {
   border: none;
 }
 .card:hover {
-    box-shadow: 3px 3px 3px #eb9195;
-    transform:scale(1.05);
+  box-shadow: 3px 3px 3px #eb9195;
+  transform:scale(1.05);
 }
 .card-title {
   text-decoration: underline;

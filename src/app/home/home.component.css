@@ -3,10 +3,6 @@ div {
   max-width: 486px;
   text-align: justify;
 }
-.gif {
-  height: auto;
-  width: 300px;
-}
 h1 {
   color: #fdebf3;
   font-family: 'Pacifico', cursive;
@@ -30,8 +26,6 @@ p {
   text-indent: 1em;
 }
 .link-images img {
-  height: auto;
-  width: 46px;
   margin-left: 4px;
   margin-right: 4px;
 }
@@ -41,6 +35,7 @@ small {
 }
 @media only screen and (max-width: 600px) {
   .link-images img {
+    height: 32px;
     width: 32px;
     margin-left: 2px;
     margin-right: 2px;

@@ -6,7 +6,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 const routes: Routes = [
   {path: '', component: HomeComponent, data: {animation: 'HomePage'}},
   {path: '', children: [
-    {path: 'portfolio', component: PortfolioComponent}
+    {path: 'portfolio', component: PortfolioComponent, data: {animation: 'PortfolioComponentPage'}}
   ]}
 ];
 
