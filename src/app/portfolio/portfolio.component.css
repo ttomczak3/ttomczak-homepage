@@ -28,7 +28,6 @@ h3 {
   border: none;
 }
 .card:hover {
-  box-shadow: 3px 3px 3px #eb9195;
   transform:scale(1.05);
 }
 .card-title {

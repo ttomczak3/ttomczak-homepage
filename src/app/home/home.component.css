@@ -34,9 +34,12 @@ small {
   font-family: 'Josefin Sans', sans-serif;
 }
 @media only screen and (max-width: 600px) {
+  div {
+    width: 320px;
+  }
   .link-images img {
-    height: 32px;
-    width: 32px;
+    height: 30px;
+    width: 30px;
     margin-left: 2px;
     margin-right: 2px;
   }
