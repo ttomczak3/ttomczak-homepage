@@ -1,0 +1,38 @@
+.header {
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
+}
+h2 {
+  color: #fdebf3;
+  text-decoration: underline;
+  text-decoration-color: #375a7f;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 6px;
+  font-family: 'Pacifico', cursive;
+}
+.row {
+  margin: auto;
+  max-width: 250px; /* It should be 500px but I only have one post for now */
+}
+.col {
+  width: 250px;
+}
+.card {
+  color: #fdebf3;
+  font-family: 'Josefin Sans', sans-serif;
+  background: none;
+  border: none;
+}
+.card:hover {
+  transform:scale(1.05);
+}
+small {
+  color: #fdebf3;
+  font-family: 'Josefin Sans', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .row {
+    max-width: 250px;
+  }
+}
