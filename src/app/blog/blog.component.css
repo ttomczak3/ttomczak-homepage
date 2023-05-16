@@ -13,7 +13,7 @@ h2 {
 }
 .row {
   margin: auto;
-  max-width: 250px; /* It should be 500px but I only have one post for now */
+  max-width: 500px;
 }
 .col {
   width: 250px;
